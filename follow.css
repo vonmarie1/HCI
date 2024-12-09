@@ -1,0 +1,127 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styles */
+  body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Profile Container */
+  .profile-container {
+    text-align: center;
+    position: relative;
+  }
+  
+  /* Back Button */
+  .back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .back-button:hover {
+    color: #00c08b;
+  }
+  
+  /* Profile Picture */
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #fff;
+  }
+  
+  .profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Profile Name */
+  .profile-name {
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+
+  /* Back Button */
+.back-button {
+    position: absolute;
+    top: -200px;
+    left: -620px;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .back-button span {
+    font-size: 1.2rem;
+  }
+  
+  .back-button:hover {
+    color: #00c08b;
+  }
+  
+  /* Button Group */
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Followed Button */
+  .followed-button {
+    background-color:#00E5BE;
+    color: #000;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .followed-button:hover {
+    background-color: #008b66;
+  }
+  
+  /* Unfollow Button */
+  .unfollow-button {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .unfollow-button:hover {
+    background-color: #ccc;
+    color: #fff;
+  }
+  
